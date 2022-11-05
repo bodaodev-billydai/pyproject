@@ -18,6 +18,8 @@ if __name__ != '__main__':
 # Press the green button in the gutter to run the script.
 else:
     #print_hi('PyCharm {} {}'.format(os.getcwd(), window.__class__.__name__ ))
-    window()
+    #window()
+    from playground import playground
+    playground.run()
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
