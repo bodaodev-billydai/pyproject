@@ -12,13 +12,13 @@ def print_hi(name):
     # Use a breakpoint in the code line below to debug your script.
     print(f'Hi, {name} ')  # Press Ctrl+F8 to toggle the breakpoint.
 
-
+print(__name__)
 if __name__ != '__main__':
     pass
 # Press the green button in the gutter to run the script.
 else:
     #print_hi('PyCharm {} {}'.format(os.getcwd(), window.__class__.__name__ ))
-    #window()
+    window()
     from playground import playground
     playground.run()
 
